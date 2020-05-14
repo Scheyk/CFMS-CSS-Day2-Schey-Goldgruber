@@ -1,13 +1,69 @@
-.wrapper{
-	width: 1000px;
-	background-color: #4d4d4d;
+.wrapper{		
+	text-align: center;	
 }
 
 head{
-	width: 100%;
-
+	text-align: center;
+	background-color: lightgray;
 }
 
-img{
-	margin: auto;
+img {
+	width: 300px;	
+}
+
+nav {
+    text-align: center;
+    color: #777;
+    height: 50px;
+    background-color: lightgray;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+.Feature {
+	height: 50px;
+	text-align: center;
+	background-color: lightgray;
+}
+
+/*
+.wrappercolumn {		
+	border: 1px solid black;
+	text-align: center;	
+}
+
+.one {
+	float: left;	
+	width: 323px;
+	position: relative;
+	background-color: lightgray;	  
+}
+
+.two {
+	float: left;		
+	width: 323px;
+	position: relative;
+	background-color: lightgray;
+}
+
+.three {
+	float: left;
+	background-color: lightgray;
+	width: 323px;
+	
+}
+*/
+
+col {
+  display: table-column;
+}
+
+footer {
+	text-align: center;	
 }
