@@ -1,7 +1,35 @@
 img {
   width: 50px;
 }
-#face {
-  width: 400px;
+#face {  
+  width: 400px;  
+}
+
+#eyes1 {
+	position: absolute;
+	top: 180px;
+	left: 100px;
+	width: 200px;
+}
+
+#mouth2 {
+	position: absolute;
+	top: 320px;
+	left: 150px;
+	width: 150px;
+}
+
+#ears2 {
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	width: 420px;
+}
+
+#nose2 {
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	width: 100px;
 }
 
